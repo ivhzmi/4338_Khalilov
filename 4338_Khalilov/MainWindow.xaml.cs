@@ -24,5 +24,11 @@ namespace _4338_Khalilov
         {
             InitializeComponent();
         }
+
+        private void btnShow_Click(object sender, RoutedEventArgs e)
+        {
+            var authorWindow = new AuthorInfoWindow();
+            authorWindow.Show();
+        }
     }
 }
