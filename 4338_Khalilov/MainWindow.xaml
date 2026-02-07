@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:_4338_Khalilov"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid x:Name="Grid">
+        <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="Введите имя" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnShow" Content="Показать информацию" HorizontalAlignment="Left" Margin="340,99,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
